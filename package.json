@@ -12,6 +12,10 @@
     "prepare": "rollup -c",
     "test": "mocha -r ts-node/register tests/**.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynchbomb/parse-profile.git",
+  },
   "bin": {
     "profile": "./bin/profile"
   },
